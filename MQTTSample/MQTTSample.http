@@ -1,0 +1,6 @@
+@MQTTSample_HostAddress = http://localhost:5248
+
+GET {{MQTTSample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

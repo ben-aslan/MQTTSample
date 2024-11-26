@@ -63,7 +63,7 @@ app.UseMqttServer(
                         SenderClientId = "SenderClientId"
                     });
                     counter++;
-                    Thread.Sleep(2000);
+                    await Task.Delay(2000);
                 }
             });
             return Task.CompletedTask;
